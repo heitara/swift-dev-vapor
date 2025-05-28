@@ -12,4 +12,7 @@ func routes(_ app: Application) throws {
     app.get("version") { req async -> String in
         "1.0.0"
     }
+    
+    // Register Todo routes
+    try app.register(collection: TodoController())
 }
