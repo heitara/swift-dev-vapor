@@ -1,6 +1,5 @@
 {
     "configurations": [
-        
         {
             "type": "swift",
             "request": "launch",
@@ -18,6 +17,24 @@
             "name": "Release hello (hello)",
             "program": "${workspaceFolder:swift-dev-vapor}/hello/.build/release/hello",
             "preLaunchTask": "swift: Build Release hello (hello)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-dev-vapor}/MyServer",
+            "name": "Debug MyServer (MyServer)",
+            "program": "${workspaceFolder:swift-dev-vapor}/MyServer/.build/debug/MyServer",
+            "preLaunchTask": "swift: Build Debug MyServer (MyServer)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-dev-vapor}/MyServer",
+            "name": "Release MyServer (MyServer)",
+            "program": "${workspaceFolder:swift-dev-vapor}/MyServer/.build/release/MyServer",
+            "preLaunchTask": "swift: Build Release MyServer (MyServer)"
         }
     ]
 }

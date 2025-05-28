@@ -10,6 +10,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/hummingbird-project/hummingbird.git", from: "2.0.0"),
+        .package(url: "https://github.com/stephencelis/SQLite.swift.git", from: "0.14.1"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -18,6 +19,7 @@ let package = Package(
             name: "MyServer",
             dependencies: [
                 .product(name: "Hummingbird", package: "hummingbird"),
+                .product(name: "SQLite", package: "SQLite.swift"),
             ]),
     ]
 )

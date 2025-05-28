@@ -1,5 +1,5 @@
 {
-  "originHash" : "4e810ca423761052b13568bc9e97ebed17d33495bf2fd5f0bb1a6958aeec90e7",
+  "originHash" : "a5699bee71b8aabddf96438c0c5541b704286cd6dd3bbde1cdaffda574f39232",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -11,12 +11,30 @@
       }
     },
     {
+      "identity" : "csqlite",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/CSQLite.git",
+      "state" : {
+        "revision" : "9106e983d5e3d5149ee35281ec089484b0def018",
+        "version" : "0.0.3"
+      }
+    },
+    {
       "identity" : "hummingbird",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hummingbird-project/hummingbird.git",
       "state" : {
         "revision" : "de2ff8249862791a8972842fd13bff014e71a329",
         "version" : "2.14.0"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stephencelis/SQLite.swift.git",
+      "state" : {
+        "revision" : "a95fc6df17d108bd99210db5e8a9bac90fe984b8",
+        "version" : "0.15.3"
       }
     },
     {
